@@ -1,5 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
+  shared_credentials_file = "C:/Users/Nadeem/.aws/credentials"
   profile = "nadimpro"
 }
 resource "aws_security_group" "Security_Group" {
